@@ -5,6 +5,10 @@ categories: [Certifications. OSCP]
 tags: [certifications,oscp,cpts,htb,offsec]     # TAG names should always be lowercase
 pin: true
 ---
+
+![OSCP Certificate](/assets/img/cert.png)
+_My Certificate_
+
 ## Introduction
 
 In September of 2023, I decided I wanted to change careers to cybersecurity. I started off with some fundamentals by getting my Network+ and Security+ certifications from CompTIA, but quickly discovered my passion was in the offensive space. When you decide to get into offensive, it will probably be under a minute or two before someone tells you to get your OSCP. It is the keynote certification for entry-level offensive professionals offered by the company OffSec. This is my experience with studying for, taking, and eventually passing the OSCP starting from absolutely nothing. It has been a very long and windy road, much more than I expected, but it can be done.
