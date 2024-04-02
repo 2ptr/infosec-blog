@@ -6,7 +6,7 @@ tags: [htb,season4,boxes,writeups,linux]     # TAG names should always be lowerc
 pin: true
 ---
 
-![wifinetic two](/assets/img/cert.png)
+![wifinetic two](/assets/img/wifinetictwo.png)
 _wifinetic two_
 
 WifineticTwo is the latest box in Season 4 on HackTheBox and a sequel to Wifinetic. It's a Medium-Easy box which focuses on wireless networking. As a note - I had to restart the box a couple of times between screenshots, so hostnames and working directories might change.
