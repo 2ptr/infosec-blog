@@ -1,7 +1,7 @@
 ---
 title: Intro to Finding Candidate Points with Regex
 date: 2024-03-11 13:12:01 +0800
-categories: [White-Box. Application Security]
+categories: [White-Box]
 tags: [whitebox,php,java,python,oswe]     # TAG names should always be lowercase
 pin: true
 ---
