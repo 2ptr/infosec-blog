@@ -6,7 +6,11 @@ tags: [maldev,windows,shellcode]     # TAG names should always be lowercase
 pin: true
 ---
 
-<img src="/assets/img/ihateamsi.jpg" width="200" height="200" />
+<h1 align="center">
+<br>
+<img src=ihateamsi.jpg height="310" border="2px solid #555">
+<br>
+</h1>
 
 ## Inspiration
 
