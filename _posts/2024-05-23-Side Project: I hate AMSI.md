@@ -6,7 +6,7 @@ tags: [maldev,windows,shellcode]     # TAG names should always be lowercase
 pin: true
 ---
 
-![I hate AMSI](/assets/img/ihateamsi.jpeg)
+![I hate AMSI](../assets/img/ihateamsi.jpeg)
 
 ## Inspiration
 
