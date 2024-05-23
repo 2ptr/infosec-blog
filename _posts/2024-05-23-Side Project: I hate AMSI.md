@@ -8,7 +8,7 @@ pin: true
 
 <h1 align="center">
 <br>
-<img src=ihateamsi.jpg height="310" border="2px solid #555">
+<img src=/assets/img/ihateamsi.jpg height="310" border="2px solid #555">
 <br>
 </h1>
 
