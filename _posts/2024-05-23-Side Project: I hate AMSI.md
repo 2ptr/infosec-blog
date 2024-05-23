@@ -6,6 +6,8 @@ tags: [maldev,windows,shellcode]     # TAG names should always be lowercase
 pin: true
 ---
 
+![I hate AMSI](/assets/img/ihateamsi.jpeg)
+
 ## Inspiration
 
 Recently I decided I wanted to dive into another certification, this time focused on Active Directory abuses. I have done quite a lot of AD attacks and feel 
