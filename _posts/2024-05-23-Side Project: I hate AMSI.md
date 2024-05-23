@@ -1,6 +1,6 @@
 ---
 title: Side Project: I hate AMSI
-date: 2024-05-23 09:08:01 +0800
+date: 2024-05-23 02:08:01 +0800
 categories: [Malware Development]
 tags: [maldev,windows,shellcode]     # TAG names should always be lowercase
 pin: true
