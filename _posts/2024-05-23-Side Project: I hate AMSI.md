@@ -48,7 +48,7 @@ signatured variable name.
 For example - `winPEAS.bat` is correctly recognized as malicious when you download it straight out the repo. However, Defender is so incredibly reliant on strings
 and byte chunks as signatures that changing the _variable name used for terminal color output_ from `ColorLine` to `ihateamsi` is enough to bypass checks entirely.
 
-```
+```dos
 :ColorLine
 SET "ihateamsi=%~1"
 FoR /F "delIms=" %%A In ('FORFILES.EXE /P %~dp0 /M %~nx0 /C "cMd /C eChO.!ihateamsi!"') DO ECHO.%%A
