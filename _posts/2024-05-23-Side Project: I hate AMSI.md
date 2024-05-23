@@ -1,3 +1,4 @@
+
 ---
 title: Side Project: I hate AMSI
 date: 2024-05-23 09:08:01 +0800
