@@ -41,7 +41,7 @@ Defender. This is admittedly much less cool and interesting, but I think it is a
 obvious caveat is that this doesnt actually 'bypass AMSI' per-se, but only passes the interfaced checks provided by Defender through AMSI - this won't work for other
 AV solutions.
 
-To do this, I used ![DefenderCheck](https://github.com/matterpreter/DefenderCheck). The tool will break a binary or script down into byte chunks and submit them to
+To do this, I used [DefenderCheck](https://github.com/matterpreter/DefenderCheck). The tool will break a binary or script down into byte chunks and submit them to
 Defender for detection. If it flags, then clearly something in that byte chunk is triggering the AV. Most of the time this is usually just a bad string literal or
 signatured variable name.
 
