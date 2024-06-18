@@ -3,7 +3,7 @@ title: Evading Windows Defender Static Anaylsis
 date: 2024-04-04 09:08:01 +0800
 categories: [Malware Development]
 tags: [maldev,windows,shellcode]     # TAG names should always be lowercase
-pin: true
+pin: false
 ---
 ## Static Analysis
 
