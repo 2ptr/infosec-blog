@@ -66,14 +66,14 @@ Reverse them:
 
 ![reverse](/assets/img/amsi/reverse.png)
 
-Or any other number of techniques. As good as those are, they probably aren't going to cut it in the big leagues of Windows Defender. Enter the classic tool (Invoke-Obfuscation)[https://github.com/danielbohannon/Invoke-Obfuscation].
+Or any other number of techniques. As good as those are, they probably aren't going to cut it in the big leagues of Windows Defender. Enter the classic tool [Invoke-Obfuscation](https://github.com/danielbohannon/Invoke-Obfuscation).
 We can use this popular obfuscation tool to customize our AMSI bypass. Let's try obfuscating the expression `$win = "WriteProcessMemory"`:
 
 ![Invoke-Obfuscation](/assets/img/amsi/invokeobfuscate.png)
 
 Great! We can now update our code block with the expression:
 
-```PowerShell
+```C
             }
             uint oldprotect;
             if (!VirtualProtect(originalSite, (UIntPtr)patch.Length, 0x40, out oldprotect)) {
