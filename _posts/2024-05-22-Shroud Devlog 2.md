@@ -37,3 +37,7 @@ After the SysWhispers integration I will be updating the script to randomly sele
 likely need to create a new custom hashed function for this, as a full image path is required for creating new threads.
 
 After I make more process on the above issues I may work towards a DLL format, which I know is significantly less signatured for detection. After that I may create some optional user-level persistence payloads to bake in.
+
+## UPDATE - GetProcAddress Signatured
+
+Unfortunately, the custom implementation of `GetProcAddress` and `GetModuleHandle` have since been heavily signatured by Defender, and no doubt other EDRs. I've taken this time to step back from the project and focus on other things. Shroud is pretty easy to use and work on, so if I happen to create a more robust payload I can easily update the source files. Maybe I will in the future, maybe not.
