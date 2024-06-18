@@ -74,6 +74,7 @@ We can use this popular obfuscation tool to customize our AMSI bypass. Let's try
 Great! We can now update our code block with the expression:
 
 ```posh
+$code = @"{
 ...
             }
             uint oldprotect;
@@ -97,6 +98,8 @@ $code = $code + @"
             }
         }
 ...
+}
+"@
 ```
 
 And check with AMSITrigger once more:
