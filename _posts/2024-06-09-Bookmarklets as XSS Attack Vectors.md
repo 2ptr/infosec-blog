@@ -1,5 +1,5 @@
 ---
-title: Bookmarklet XSS Attacks - Real Roblox Malware
+title: Bookmarklets as XSS Attack Vectors
 date: 2024-06-09 05:08:01 +0800
 categories: [Malware Analysis]
 tags: [javascript,xss,analysis]     # TAG names should always be lowercase
