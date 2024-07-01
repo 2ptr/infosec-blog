@@ -3,7 +3,7 @@ title: Mallet/Shroud - Devlog 1
 date: 2024-04-22 09:08:01 +0800
 categories: [Malware Development]
 tags: [maldev,windows,shellcode]     # TAG names should always be lowercase
-pin: true
+pin: false
 ---
 ## Project Overview
 
