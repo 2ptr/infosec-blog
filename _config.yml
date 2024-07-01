@@ -16,7 +16,7 @@ timezone:
 
 title: "twopoint's blog" # the main title
 
-tagline: all your registers are belong to us # it will display as the sub-title
+tagline: all your file are belong to us # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A personal information security website dedicated to CTFs, malware development,
