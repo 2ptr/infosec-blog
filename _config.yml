@@ -14,17 +14,16 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: "twopoint's blog" # the main title
+title: "2ptr's blog" # the main title
 
-tagline: all your file are belong to us # it will display as the sub-title
+tagline: Jake Otte - Cybersecurity Engineer
 
 description: >- # used by seo meta and the atom feed
-  A personal information security website dedicated to CTFs, malware development,
-  and anything else I want.
+  Malware Development | Detection Engineering | CTFs
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://Jake123otte1.github.io"
+url: "https://2ptr.github.io"
 
 github:
   username: 2ptr # change to your github username
