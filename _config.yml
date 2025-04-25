@@ -16,10 +16,12 @@ timezone:
 
 title: "2ptr's blog" # the main title
 
-tagline: Jake Otte - Cybersecurity Engineer
+tagline: 
+  Jake Otte - Cybersecurity Engineer
+  Malware Development | Detection Engineering | CTFs
 
 description: >- # used by seo meta and the atom feed
-  Malware Development | Detection Engineering | CTFs
+  Jake Otte - Cybersecurity Engineer
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
