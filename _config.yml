@@ -14,11 +14,10 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: "2ptr's blog" # the main title
+title: "Jake's blog" # the main title
 
 tagline: 
-  Jake Otte - Cybersecurity Engineer
-  Malware Development | Detection Engineering | CTFs
+  Malware | Detection Engineering | CTFs
 
 description: >- # used by seo meta and the atom feed
   Jake Otte - Cybersecurity Engineer
