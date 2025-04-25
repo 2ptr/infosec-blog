@@ -17,7 +17,7 @@ timezone:
 title: "Jake's blog" # the main title
 
 tagline: 
-  Malware | Detection Engineering | CTFs
+  Malware | Detection | CTFs
 
 description: >- # used by seo meta and the atom feed
   Jake Otte - Cybersecurity Engineer
