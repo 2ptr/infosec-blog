@@ -27,7 +27,7 @@ description: >- # used by seo meta and the atom feed
 url: "https://Jake123otte1.github.io"
 
 github:
-  username: tw0point # change to your github username
+  username: 2ptr # change to your github username
 
 twitter:
   username: twopoint_sec # change to your twitter username
@@ -35,12 +35,12 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: twopoint
-  email: twopoint@nope.com # change to your email address
+  name: Jake Otte
+  email: jake123otte1@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/twopoint_sec # change to your twitter homepage
-    - https://github.com/tw0point # change to your github homepage
+    - https://github.com/2ptr # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     - https://www.linkedin.com/in/jake-otte
@@ -77,7 +77,7 @@ theme_mode: # [light | dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: ./bear.png
+avatar: ./bear.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
