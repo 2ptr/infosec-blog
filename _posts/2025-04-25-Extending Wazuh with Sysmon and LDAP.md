@@ -9,7 +9,7 @@ pin: true
 
 ## Wazuh
 
-Wazuh is an open-source SIEM platform that enables defenders to implement logging and detection infrastructure at no cost. The project is an incredible accopmlishment and is continuously being updated with new features, bug fixes, and 
+Wazuh is an open-source SIEM platform that enables defenders to implement logging and detection infrastructure at no cost. The project is an incredible accomplishment and is continuously being updated with new features, bug fixes, and 
 extensions to the base ruleset.
 
 As with most SIEM solutions, Wazuh relies on worker agents to aggregate logs from endpoints and deliver them to the management server for alerting. By default, Wazuh agents subscribe to a handful of Windows event log channels - Security, System,
@@ -40,7 +40,7 @@ the agent's `ossec.conf` file locally on a specific endpoint or use the `Managem
 ## Sysmon Rules and Alerts
 
 The hard part is over. With Sysmon events flowing in from the reconfigured agent, you should see plenty of alerts from the `Sysmon` event log channel. Wazuh's base Sysmon ruleset is not bad but can be a bit noisy, especially in its determination
-of "suspicious CMD shell launched". If you want to write your own rules, Wazuh actually provides named groups for each Sysmon event ID. For example, if you wanted to write an alert for all High-integrity (Administratrive) CMD or PowerShell sessions,
+of "suspicious CMD shell launched". If you want to write your own rules, Wazuh actually provides named groups for each Sysmon event ID. For example, if you wanted to write an alert for all High-integrity (Administrative) CMD or PowerShell sessions,
 you can simply use the Event ID 1 - Process Creation sysmon group:
 
 ```xml
