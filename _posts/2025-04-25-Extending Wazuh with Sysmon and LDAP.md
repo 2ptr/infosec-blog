@@ -1,6 +1,6 @@
 ---
 title: Extending Wazuh with Sysmon and LDAP
-date: 2024-04-25 10:35:01 +0800
+date: 2025-04-25 10:35:01 +0800
 categories: [Wazuh, Blue Team]
 tags: [wazuh, blue team, detection, sysmon]     # TAG names should always be lowercase
 pin: true
