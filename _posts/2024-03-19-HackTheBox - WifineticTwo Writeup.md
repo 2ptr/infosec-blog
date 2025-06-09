@@ -1,7 +1,7 @@
 ---
 title: HackTheBox - WifineticTwo Writeup
 date: 2024-03-19 16:48:01 +0800
-categories: [Writeups]
+categories: [security]
 tags: [htb,season4,boxes,writeups,linux]     # TAG names should always be lowercase
 pin: false
 ---

@@ -1,7 +1,7 @@
 ---
 title: AMSI Bypasses and PowerShell Obfuscation
 date: 2024-06-17 10:08:01 +0800
-categories: [Malware Development]
+categories: [security]
 tags: [AMSI, PowerShell, obfuscation]     # TAG names should always be lowercase
 pin: false
 ---
