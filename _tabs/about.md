@@ -4,7 +4,4 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-I am a cybersecurity enthusiast. I started this blog to compile and share things I have stumbled upon related to the field. 
-
-
-I am currently employed as a security analyst, primarily focused on pentesting.
+I'm a cybersecurity professional focused on infrastructure and cloud security, with a background in offensive testing, SIEM analysis, and enterprise environments. My work involves identifying and mitigating risks across complex systems—especially in Windows networks, Active Directory, and modern cloud architectures. This blog is where I share insights, techniques, and lessons learned from real-world security challenges.
