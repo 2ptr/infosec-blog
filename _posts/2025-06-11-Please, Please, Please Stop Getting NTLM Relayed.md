@@ -82,7 +82,7 @@ Relayed Domain Users may be able to create a computer account as a foothold in t
 
 Relayed computer accounts allow for a unique attack called Resource-Based Constrained Delegation. Basically, the attacker can authenticate to the relayed computer as any other user in the domain. For example, if the attacker relays `FILES-01$`, they can conduct an RBCD attack to gain access as `DOMAIN.LOCAL\Administrator` to any services on `FILES-01`, including SMB. In general this results in full compromise of the server.
 
-### Mitigation
+### Fix
 
 Microsoft has released GPO options to enforce message signing for LDAP connections and channel binding for LDAPS connections. These can be found under the `Default Domain Controllers Policy` at `Computer Configuration\Windows Settings\Security Settings\Local Policies\Security Options`, with settings `Domain controller: LDAP server signing requirements` and `Domain controller: LDAP server channel binding token requirements`.
 
@@ -98,7 +98,7 @@ Relaying a domain user to a MSSQL server may provide read or write access to sen
 
 I can speak from experience - many organizations may have SMB/LDAP signing enabled and a locked down Certificate Authority, but always overlook MSSQL.
 
-### Mitigation
+### Fix
 
 Luckily, the MSSQL protocol supports Extended Protection for Authentication (EPA) which can be enabled through the SQL Server Configuration Manager window. Recall that EPA requires TLS encryption of the communication channel - we'll need to require both `Force Encryption` and `Extended Protection` for each SQL server:
 
