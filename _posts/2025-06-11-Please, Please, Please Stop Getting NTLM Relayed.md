@@ -20,7 +20,7 @@ As a sysadmin securing your environment, all you need to know is that attackers 
 
 For example, say Bob from accounting attempts to access the file share hosted on the server `FILES-01`. An attacker on your network can say "Hey, I am `FILES-01`! Authenticate to me." to intercept Bob's authentication. The attacker can then forward Bob's authentication attempt to your server `DC-01` to interact with the Domain Controller, access sensitive information, and do a variety of other actions.
 
-### EXAMPLE INFOGRAPHIC ###
+![relay](/assets/img/ntlm/relay.png)
 
 Let's take a look at the various protocols attackers can forward authentication to, what the potential impacts are, and how to fix each one in your environment.
 
